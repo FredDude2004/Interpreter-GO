@@ -1,16 +1,16 @@
-package lexer 
+package lexer
 
 import (
 	"testing"
 
-	"monkey/token"
+	"Interpreter/token"
 )
 
 func TestNextToken(t *testing.T) {
-	input := '=+(){},;'
-	
+	input := `=+(){},;`
+
 	tests := []struct {
-		expectedType  token.TokenType
+		expectedType    token.TokenType
 		expectedLiteral string
 	}{
 		{token.ASSIGN, "="},
@@ -38,4 +38,3 @@ func TestNextToken(t *testing.T) {
 		}
 	}
 }
-
