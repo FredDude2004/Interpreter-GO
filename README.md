@@ -1,4 +1,9 @@
+
+
 # Interpreter from Scratch
+
+# TODO Make this not crap
+
 
 ## Overview
 
@@ -31,7 +36,7 @@ Memory Management: Uses Go’s garbage collection for automatic memory handling.
 
 Design Choices: Recursive descent parsing for clarity and maintainability.
 
-## Why This Matters
+Why This Matters
 
 Writing an interpreter from scratch builds a strong foundation in language design, compiler theory, and testable software design. This project showcases:
 
